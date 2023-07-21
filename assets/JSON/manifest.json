@@ -1,0 +1,59 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://b6eb9213-c172-4dac-9e1e-ad2d54ed5a94",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://60fa6448-dd7b-423c-9298-253160dbe2ec",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://066b01df-994c-43eb-bc21-8f137634a7d7",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 684,
+					"width": 1024,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://57aa62ee-e703-4acc-8420-7799f0b85cd6",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://206.12.90.25:8182/iiif/3/vivo%2FSD_WLHP_MM3_017_edited-1024x684.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/3/context.json",
+									"@id": "http://206.12.90.25:8182/iiif/3/vivo%2FSD_WLHP_MM3_017_edited-1024x684.jpg",
+									"profile": "level2"
+								},
+								"height": 684,
+								"width": 1024
+							},
+							"on": "http://066b01df-994c-43eb-bc21-8f137634a7d7"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
